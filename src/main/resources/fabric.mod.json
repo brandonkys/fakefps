@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fakefps",
+  "version": "${version}",
+  "name": "Fakefps",
+  "description": "Shows fake FPS",
+  "authors": [
+    "BrandonGHG"
+  ],
+  "contributors": [
+    "ChloeCDN"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.brandonkys.fakefps.client.Client"
+    ]
+  },
+  "mixins": [
+    "fakefps.mixins.json"
+  ]
+}
